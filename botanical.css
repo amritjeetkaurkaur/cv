@@ -1,0 +1,383 @@
+*
+{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Times New Roman;
+}
+nav
+{
+font-size:17px;
+width:100%;
+padding-bottom:100px;
+background-color:#ececec;
+}
+.language
+{
+display:flex;
+gap:20px;
+}
+.nav-bar
+{
+display:flex;
+justify-content:space-evenly;
+width:100%
+gap:20px;
+padding-top:40px
+}
+.nav-bar-icons
+{
+display:flex;
+gap:20px;
+}
+.nav-bar-icons i:hover
+{
+color:#5ba515;
+}
+.navbar img
+{
+padding-top:20px
+}
+.nav-bar ul li a
+{
+text-decoration:none;
+color:black;
+}
+.nav-bar ul li a:hover
+{
+color:#5ba515;
+}
+li
+{
+display:inline-block;
+margin: 0px 12px;
+}
+.main-head
+{
+display:flex;
+gap:100px;
+max-width:1200px;
+margin:0 auto;
+padding-top:110px
+}
+.main-content
+{
+padding-top:80px
+}
+.main-content h3
+{
+font-size:25px;
+}
+.main-content h1
+{
+font-size:80px;
+color:#5ba515;
+margin-top:20px;
+}
+.main-content pre
+{
+font-size:18px;
+margin-top:20px;
+line-height:25px;
+opacity:0.9;
+}
+.main-image img
+{
+border-radius:10px;
+}
+button
+{
+padding:20px 25px;
+background-color:#5ba515;
+border:none;
+border-radius:50px;
+font-size:18px;
+margin-top:20px;
+color:white;
+}
+button:hover
+{
+padding:22px 26px;
+font-size:20px;
+transition:.3s;
+}
+.choose-us
+{
+max-width:1300px;
+margin:0 auto;
+display:flex;
+gap:50px;
+padding-top:100px
+}
+.choose-content
+{
+margin-top:50px
+}
+.choose-content h3
+{
+font-size:45px;
+}
+.border
+{
+border-bottom:2px solid #5ba515;
+width:42%;
+padding-top:10px;
+}
+.choose-content pre
+{
+font-size:17px;
+padding-top:20px;
+padding-bottom:50px
+}
+.choose-content pre span
+{
+color:#5ba515;
+font-style:italic;
+}
+.choose-content h2
+{
+font-size:25px;
+color:#5ba515;
+padding-top:20px;
+}
+.choose-content p
+{
+padding-top:10px;
+font-size:17px;
+}
+.products-content
+{
+padding-top:100px;
+}
+.products-content .border
+{
+width:27%
+}
+.products
+{
+max-width:1300px;
+margin:0 auto;
+}
+.products-content h3
+{
+font-size:45px;
+}
+.products-content p
+{
+font-size:15px;
+padding-top:20px;
+}
+.plants
+{
+padding-top:100px;
+display:grid;
+grid-template-columns:1fr 1fr 1fr 1fr;
+gap:15px;
+}
+.plants-images
+{
+border:1px solid #00000038;
+border-radius:10px;
+text-align:center;
+}
+.plants-images p
+{
+padding-top:40px;
+color:#00000099;
+}
+.plants-images h3
+{
+margin-top:10px;
+padding-bottom:40px;
+}
+.plants-images img
+{
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+}
+.four
+{
+max-width:1200px;
+margin:0 auto;
+display:flex;
+gap:30px;
+
+}
+.four-content
+{
+width:23%;
+border:1px solid #00000038;
+margin-top:100px;
+border-radius:50px;
+padding:25px;
+font-size:40px;
+color: #5ba515;
+display:flex;
+gap:20px;
+}
+.four-content h3
+{
+font-size:18px;
+color:black;
+}
+.four-content p
+{
+font-size:15px;
+color:#00000099;
+padding-top:7px;
+}
+.images
+{
+max-width:1200px;
+margin:0 auto;
+margin-top:100px;
+display: flex;
+gap:30px;
+}
+.newsletter
+{
+max-width:1400px;
+margin:0 auto;
+}
+.news
+{
+width:100%;
+height:400px;
+background-color:#ececec;
+margin-top:100px;
+text-align:center;
+padding-top:7%;
+}
+.news h3
+{
+font-size:50px;
+}
+.news p
+{
+font-size:16px;
+margin-top:20px;
+}
+input
+{
+padding:20px;
+border:none;
+width:50%;
+margin-top:50px;
+font-size:15px;
+border-radius:50px;
+}
+.foot
+{
+display:flex;
+gap:150px;
+padding-top:100px;
+max-width:1000px;
+margin:0 auto;
+}
+.contact-icons 
+{
+display:flex;
+gap:10px;
+padding-top:25px;
+}
+.foot h3
+{
+font-size:22px;
+color:#5ba515;
+}
+.information p, .account p
+{
+padding-top:25px;
+}
+.foot p:hover
+{
+color:#5ba515;
+cursor:pointer;
+}
+
+@media only screen and (max-width: 600px)
+{
+.navbar
+{
+display:none;
+}
+.main-content
+{
+padding-top:10px !important;
+}
+.main-head
+{
+display:block;
+text-align:center;
+position:relative'
+bottom:150px;
+}
+.main-image img
+{
+margin-top:50px;
+}
+.products
+{
+text-align:center;
+}
+.choose-us
+{
+display:block;
+}
+.choose-image img
+{
+width:100%;
+}
+.choose-content 
+{
+text-align:center;
+}
+.border
+{
+margin:0 auto;
+}
+.plants
+{
+display:block;
+}
+.plants-images
+{
+border:none;
+}
+.four
+{
+display:block;
+}
+.four-content
+{
+margin:0 auto;
+width:70%;
+margin:50px;
+}
+.images
+{
+display:block;
+}
+.images img
+{
+width:100%;
+padding:20px;
+margin:0 auto;
+}
+.news
+{
+padding:20px;
+}
+.foot
+{
+display:block;
+padding-bottom:100px;
+padding-left:30px;
+}
+.foot h3
+{
+margin-top:20px;
+}
+}
+
+
