@@ -1,0 +1,302 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Montserrat";
+}
+div#menu
+{
+    display: flex;
+    align-items: center;
+}
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-top: 30px;
+    width: 100%;
+    background-color: aliceblue;
+    color: black;
+    padding-bottom: 20px;
+}
+.navbar h3
+{
+    margin-left: 50px;
+}
+ .nav ul
+ {
+    display: flex;
+    gap: 50px;
+    margin-right: 100px;
+    font-weight: 500;
+ }
+ .nav ul li
+{
+    list-style: none;
+    display: flex
+;
+    align-items: center;
+}
+.nav ul li a
+{
+    color: black;
+    text-decoration: none;
+}
+.nav ul li a:hover
+{
+    color: #f76b8a;
+}
+.navbar i 
+{
+    margin-right: 20px;
+    font-size: 20px;
+    display: none;
+}
+button.hide
+{
+    background-color: aliceblue;
+    border: none;
+}
+.work-img 
+{
+    background-image: url("office-work.jpg");
+    height: 450px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 150px;
+    color: white;
+    background-attachment: fixed;
+}
+.work-img h3
+{
+    font-size: 60px;
+    margin: 0 auto;
+}
+.work-img span
+{
+    color: #f76b8a;
+}
+.about-camera
+{
+    max-width: 1300px;
+    display: flex;
+    margin: 0 auto;
+}
+.about, .photographer 
+{
+  padding: 70px;
+  width:50%;
+}
+.about h2
+{
+    font-size: 40px;
+    font-weight: 500;
+    color: #f76b8a;
+}
+.about h4 
+{
+    font-size: 14px;
+    margin-top: 20px;
+}
+.about p
+{
+    font-size: 14px;
+    line-height: 20px;
+    /* margin-top: 22px; */
+}
+.about-content
+{
+    margin-top: 20px;
+}
+.photographer img
+{
+    width: 95%;
+    border-radius:100px;
+}
+.photographer
+{
+    display: flex;
+    padding: 70px;
+    width: 50%;
+}
+.inner-imgs-se img
+{
+    width: 105%;
+    margin-top: 180px;
+}
+.content
+{
+    display: flex;
+    padding-top: 20px;
+    gap: 70px;
+}
+.content span
+{
+    font-size: 18px;
+}
+.content p 
+{
+    display: block;
+    color: #f76b8a;
+    font-weight: 500;
+}
+.main-container
+{
+    display: grid; 
+}
+.main-parent
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.main
+{
+    /* height: 400px; */
+    width: 30%;
+    background-color: #f76b8a;
+    border-radius: 5px;
+}
+.main-circle
+{
+    position: relative;
+    top: 20px;
+    padding: 100px;
+    background-color: white;
+    height: auto;
+    width: 84%;
+    border-radius: 100%;
+    margin: 0 auto;
+}
+.main-circle img
+{
+    /* height: 171px; */
+    width: 195px;
+}
+.main-content
+{
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+}
+.main-content h3
+{
+    font-size: 30px;
+}
+.main-content p
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 23px;
+    font-size: 15px;
+}
+footer
+{
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    margin-top: 20px;
+}
+.footer-icons
+{
+    color: #9ba6a5;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 70px;
+}
+.footer-icons i
+{
+    margin: 7px;
+    background-color: #5c636e;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    padding-top: 12px;
+}
+footer p
+{
+    color: #9ba6a5;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 600px)
+{
+    .photographer {
+        display: block;
+        padding: 50px;
+        width: 100% !important;
+    }
+.nav ul li a
+   {
+    display: none;
+   }
+   .about-camera
+   {
+    display: block; 
+   }
+   .main-parent
+   {
+    display: block;
+   }
+   .main
+   {
+    width: 100%;
+    margin-top: 20px;
+   }
+   div#menu
+   {
+    display: none;
+   }
+   .main-content p 
+   {
+    padding: 20px;
+   }
+   .about
+   {
+    width: 100%;
+   }
+   .photographer img
+   {
+    width: 100% !important;
+   }
+   .inner-imgs-se img
+   {
+    margin-top: 20px;
+   }
+   .content 
+   {
+    gap: 40px;
+   }
+   .main-content h3
+   {
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+   }
+   .main-content p
+   {
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.4em;
+   }
+   .main-circle img
+   {
+    width: 100%;
+   }
+   footer
+   {
+    margin-top: 40px;
+   }
+   .main-conatiner
+   {
+    padding: 16px;
+   }
+   
+}
