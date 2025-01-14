@@ -1,0 +1,229 @@
+html
+{
+  scroll-behavior: smooth;
+}
+.navbar
+{
+  position: sticky;
+  top: 20px;
+  background-color: #fff1eb;
+  z-index: 9999;
+  width: 90%;
+}
+.nav-center
+{
+  flex-direction: row;
+  width: 85%;
+  justify-content: center;
+}
+.nav-link a:hover {
+    color: #5e63b6 !important;
+    transition: 0.5s ease;
+  }
+  button
+  {
+    color: white;
+  }
+  button:hover {
+    color: #ace0f9;
+    transition: 0.5s ease;
+  }
+  .main-content
+  {
+    position: relative;
+    bottom: 120px;
+  }
+  video {
+    border-radius: 50px;
+  }
+  .about i,
+  .about h4,
+  .education h4 {
+    color: #5e63b6;
+  }
+  .about p, .education p
+  {
+    color: #0000008c;
+  }
+ .icns p
+ {
+    color: #0000008c;
+ }
+ .icns p:hover
+{
+    color: #5e63b6;
+    transition: .5s;
+}
+ .icns
+ {
+    border: 3px solid white;
+    box-shadow: 4px 4px 10px rgb(172, 166, 166);
+    border-radius: 15px;
+ }
+ .icns:hover
+ {
+    border: 3px solid #5e63b6;
+    transition: .5s;
+ }
+.skills
+{
+  padding-bottom: 100px;
+}
+.study
+{
+  background-image: linear-gradient(to top, #fff1eb 10%, #ace0f9 140%);
+}
+.edu img
+{
+  border-radius: 20px;
+}
+.education i
+{
+  color: #5e63b6;
+}
+.uni-text h4
+{
+  margin-top: 0;
+   color: #5e63b6;
+}
+.uni-text p
+{
+  line-height: 12px;
+}
+.uni-official
+{
+  margin-top: 10px;
+}
+
+#card-area
+{
+  padding: 10px 0;
+}
+.box-area
+{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 40px;
+  margin-top: 50px;
+}
+.box
+{
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+}
+.box img
+{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 1.2s;
+}
+.overlay
+{
+  height: 0;
+  width: 100%;
+  background: linear-gradient(transparent, white 90%);
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 5px;
+  text-align: center;
+  font-style: 14px;
+  transition: height 0.5s;
+}
+.overlay h3
+{
+  font-weight: 500;
+  margin-bottom: 5px;
+  margin-top: 20%;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #5e63b6;
+}
+.overlay a
+{
+  text-decoration: none;
+  font-size: 15px;
+  background-color: white;
+  border-radius: 5px;
+  text-align: center;
+  color: #5e63b6;
+}
+.box:hover img
+{
+    transform: scale(1.2);
+}
+.box:hover .overlay
+{
+    height: 120%;
+}
+.phone-icon i
+{
+  background-color:white ;
+}
+.contact-form
+{
+  box-shadow: 5px 5px 30px rgba(79, 77, 77, 0.5);
+}
+.foot
+{
+  background-color: #5e63b6;
+}
+.foot h1
+{
+  font-weight: 900;
+}
+.nav-links a:hover
+{
+  color: #ace0f9 !important;
+  transition: 0.5s ease;
+}
+@keyframes scroll {
+  from
+  {
+    opacity: 0;
+    scale: 0.5;
+  }
+  to
+  {
+    opacity: 1;
+    scale: 1;
+  }
+  
+}
+.block
+  {
+    animation: scroll linear;  
+    animation-timeline: view();
+    animation-range: entry 0;
+  }
+.brdr
+{
+  border-top: 1px solid white;
+  margin-top: 60px;
+}
+::-webkit-scrollbar
+{
+  width: 15px;
+}
+::-webkit-scrollbar-track
+{
+  background: #d1e5ff;
+}
+::-webkit-scrollbar-thumb
+{
+  background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  border-radius: 10px;
+}
+.foot .gap-3
+{
+  padding-bottom: 0px !important;
+}
